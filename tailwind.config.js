@@ -2,9 +2,15 @@
 export default {
   content: [
     "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'snow': '#fffafa',
+        'onyx': '#353839',
+      },
+    },
   },
   plugins: [],
 }
